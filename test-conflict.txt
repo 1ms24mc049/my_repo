@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 this is an update in master
+=======
+this is an update in demo-branch2
+>>>>>>> demo-branch2
