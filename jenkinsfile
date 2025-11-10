@@ -1,0 +1,21 @@
+pipeline{
+  agent any
+
+  stages{
+    stage('checkout'){
+      steps{
+        git branch:'master' ,url:'https://github.com/1ms24mc049/my_repo'
+      }
+    }
+    stage('Build'){
+      steps{
+        echo "Buildingggggggggggggggggggggggggg"
+      }
+    }
+     stage('Test'){
+      steps{
+        echo "Testingggggggggggggggggggggggggg"
+      }
+    }
+  }
+}
