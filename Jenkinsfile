@@ -1,6 +1,9 @@
 pipeline
 {
 	agent any
+	tools{
+		jdk 'jdk21'
+	}
 	stages
 	{
 		stage("Exec java file")
@@ -11,13 +14,6 @@ pipeline
 										sh "java Hello"
                         }     
                 }
-		stage("Exec python file")
-		{
-			steps {
-					echo("Python file");
-					sh "python3 hello.py"
-			}
-		}
 		
 	}
 }
