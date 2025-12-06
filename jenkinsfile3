@@ -11,14 +11,14 @@ pipeline {
 
     stage('compile') {
       steps {
-        echo "compiling the java pgm"
+        echo "compiling the python pgm"
         sh 'python3 hello.py'
       }
     }
 
     stage('run') {
       steps {
-        echo "running the java pgm"
+        echo "running the jpython pgm"
         
       }
     }
