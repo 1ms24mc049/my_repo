@@ -6,7 +6,7 @@ pipeline{
   stages{
      stage('compile') {
       steps {
-        echo "compiling the pythonnnnnnnn programmm"
+        echo "compiling the pythonnnnnnnnnnnn programmm"
         sh 'python3 h1.py'
       }
     }
