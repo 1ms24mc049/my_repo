@@ -10,8 +10,8 @@ pipeline
                 {
                         steps {
                                         echo("Java file");
-                                        sh "javac Hello.java"
-										sh "java Hello"
+                                        sh 'javac Hello.java'
+										sh 'java Hello'
                         }     
                 }
 		
